@@ -269,7 +269,7 @@ soong_config_module_type {
 soong_config_module_type {
     name: "qti_camera_device",
     module_type: "cc_defaults",
-    config_namespace: "lineageQcomVars",
+    config_namespace: "arrowQcomVars",
     bool_variables: ["uses_qti_camera_device"],
     properties: [
         "cppflags",
